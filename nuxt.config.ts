@@ -28,7 +28,7 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { isr: 60 }
+    '/': { isr: 60 * 60 } // 1 hour
   },
 
   compatibilityDate: '2025-06-01',
