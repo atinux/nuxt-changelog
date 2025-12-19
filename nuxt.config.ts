@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxtjs/mdc',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxthub/core'
   ],
 
   devtools: {
@@ -32,6 +33,10 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-06-01',
+
+  hub: {
+    cache: true
+  },
 
   eslint: {
     config: {
