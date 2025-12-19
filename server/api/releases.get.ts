@@ -10,7 +10,9 @@ const REPOS = [
   'nuxt/test-utils',
   'nuxt/scripts',
   'nuxt/eslint',
-  'nuxt/icon'
+  'nuxt/icon',
+  'nuxt/hints',
+  'nuxt/a11y'
 ]
 
 export default defineCachedEventHandler(async () => {
