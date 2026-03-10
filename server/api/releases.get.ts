@@ -6,6 +6,7 @@ const REPOS = [
   'nuxt/fonts',
   'nuxt/ui',
   'nuxt/content',
+  'nuxt-content/nuxt-studio',
   'nuxt/devtools',
   'nuxt/test-utils',
   'nuxt/scripts',
