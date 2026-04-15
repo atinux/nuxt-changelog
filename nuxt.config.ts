@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { isr: 60 * 60 } // 1 hour
+    '/': { redirect: { to: 'https://nuxt.com/changelog', status: 302 } },
   },
 
   compatibilityDate: '2025-06-01',
